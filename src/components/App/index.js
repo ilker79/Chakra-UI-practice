@@ -3,6 +3,7 @@ import React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import ButtonComponent from '../Button/index';
 import InputComponent from '../Input/index';
+import Slider1 from './slider/index';
 
 function App() {
   // 2. Use at the root of your app
@@ -10,6 +11,7 @@ function App() {
     <ChakraProvider>
       <ButtonComponent />
       <InputComponent />
+      <Slider1 />
     </ChakraProvider>
   );
 }
