@@ -1,8 +1,8 @@
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
-function ButtonComponent(){
+function ButtonComponent({handleClick}){
     return(
-        <Button colorScheme="cyan">Button</Button>
+        <Button onClick={handleClick} colorScheme="cyan">Button</Button>
     );
 }
 
