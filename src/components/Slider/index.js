@@ -3,7 +3,7 @@ import {
     SliderTrack,
     SliderFilledTrack,
     SliderThumb,
-    Icon,
+    
 } from "@chakra-ui/react"
 
 

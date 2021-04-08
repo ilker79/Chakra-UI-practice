@@ -40,19 +40,3 @@ function App() {
 
 export default App;
 
-// import React, { useState } from "react";
-// // 1. import `ChakraProvider` component
-// import { ChakraProvider } from "@chakra-ui/react";
-// import BurgerTypeComponent from "../BurgerTypeComponent/index";
-
-// function App() {
-//   // 2. Use at the root of your app
-  
-//   return (
-//     <ChakraProvider>
-//       Burger type:<BurgerTypeComponent />
-//     </ChakraProvider>
-//   );
-// }
-
-// export default App;
